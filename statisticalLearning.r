@@ -12,7 +12,7 @@ summary(numericVector)
 
 "PART 1"
 numVec1 = numericVector[1:8]
-letters <- c("{", "s", "t", "e", "m", "5", "4")
+letters <- c("{", "q", "t", "i", "w", "5", "4")
 values <- c(0.1,0.3,0.6,0.7,0.4,0.2,0.8)
 names(values) <- letters
 
@@ -21,7 +21,7 @@ foo <- function(a,x,b){a*x+b*10}
 
 plot(x,foo(values[chr(numVec1[[1]])], x, values[chr(numVec1[[2]])]), type="l", main="Ne Horosho 1", asp=1, ylab="y")
 
-plot(x,foo(values[chr(numVec1[[3]])], x, values[chr(numVec1[[4]])]), type="l", main="Ne Horosho 3", asp=1, ylab="y")
+plot(x,foo(values[chr(numVec1[[3]])], x, values[chr(numVec1[[4]])]), type="l", main="Ne Horosho 2", asp=1, ylab="y")
 
 plot(x,foo(values[chr(numVec1[[5]])], x, values[chr(numVec1[[6]])]), type="l", main="Ne Horosho 3", asp=1, ylab="y")
 
